@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background: #3FE41F;
+  color: #222;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+.main-container{
+  background: #e7d9ea;
+  box-shadow: 0px 2px 10px gray;
+ padding: 20px;
+  width: 305px;
+  
+  border-radius: 20px;
+}
+.tool{
+  font-size: 30px;
+  text-align: center;
+  color: green;
+  margin-bottom: 50px;
+}
+.ip,.locationb,.geo{
+  width: 100%;
+  height: 30px;
+  background-color: whitesmoke;
+  border: none;
+  word-wrap: break-word;
+  color: #333;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+h1{
+  margin: 10px 0 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.lookup-btn{
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px 2px;
+  background: #333;
+  border-radius: 8px;
+}
+.lookup-btn{
+  display: block;
+  width: 100%;
+}
+.lookup-btn:active{
+  background-color: #3FE41F;
+}
